@@ -2,7 +2,7 @@
 #define grinder.h
 
 #include <Arduino.h>
-#include <LiquidCrystal.h>
+#include <LiquidCrystal_I2C.h>
 #include <button.h>
 #include <motor.h>
 
@@ -16,7 +16,7 @@ class GrinderClass {
     private:
         ButtonClass _startButton;
         MotorClass _motor;
-        LiquidCrystal _lcd;
+        LiquidCrystal_I2C _lcd;
 
         int _speedPin, _durationPin;
         bool _motorRunning;
