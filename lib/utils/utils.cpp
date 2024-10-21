@@ -14,17 +14,17 @@ int utilsClass::smoothAnalogRead(int pin, int samples = 10){
     return sum / samples;
 }
 
-void utilsClass::checkForButtonPress(int buttonState, int lastButtonState, bool motorRunning, unsigned long motorStartTime){
-    if(buttonState == LOW && lastButtonState == HIGH){
+void utilsClass::checkForButtonPress(int* buttonState, int* lastButtonState, bool* motorRunning, unsigned long* motorStartTime){
+    if(*buttonState == LOW && *lastButtonState == HIGH){
         if(motorRunning){
-            motorRunning = false;
+            *motorRunning = false;
         }else {
-            motorRunning = true;
-            motorStartTime = millis();
+            *motorRunning = true;
+            *motorStartTime = millis();
         }
         delay(50);
     }
-    lastButtonState = buttonState;
+    *lastButtonState = *buttonState;
 }
 
 utilsClass utils = utilsClass();
