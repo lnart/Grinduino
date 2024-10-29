@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Build',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/Coffee-Brew-Icon.svg').default,
     description: (
       <>
         Grinduino was designed to be easy to build for anyone who is willing to buy the necessary material
@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Level Up Your Hand Grinder',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/Coffee-Brew-Icon.svg').default,
     description: (
       <>
         The Grinduino Project equips your Hand Grinder with features that usually come at a high price point. 
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Open Source',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/Coffee-Brew-Icon.svg').default,
     description: (
       <>
         The Project is open source, that means it's totally free to use and if you want to contribute to the community and the project you can also do that!
