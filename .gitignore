@@ -3,3 +3,23 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+# Dependencies
+.documentation/node_modules
+
+# Production
+.documentation//build
+
+# Generated files
+.documentation/.docusaurus
+.documentation/.cache-loader
+
+# Misc 
+.documentation/.DS_Store
+.documentation/.env.local
+.documentation/.env.development.local
+.documentation/.env.test.local
+.documentation/.env.production.local
+
+.documentation/npm-debug.log*
+.documentation/yarn-debug.log*
+.documentation/yarn-error.log*
