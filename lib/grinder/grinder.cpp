@@ -1,8 +1,10 @@
 #include <grinder.h>
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
 
 GrinderClass::GrinderClass(int in1Pin, int in2Pin, int enaPin, int speedPin, int durationPin, int startPin)
     : _startButton(startPin), _motor(in1Pin, in2Pin, enaPin),
-    _lcd(12, 11, 5, 4, 3, 2), _speedPin(speedPin), _durationPin(durationPin) {
+    _lcd(0x27, 16, 2), _speedPin(speedPin), _durationPin(durationPin) {
     _motorRunning = false;
 }
 
@@ -10,7 +12,8 @@ void GrinderClass::begin(){
     _startButton.begin();
     _motor.begin();
 
-    _lcd.begin(16, 2);
+    _lcd.init();
+    _lcd.backlight(); 
     _lcd.print("Ready To Grind");
     _lcd.setCursor(0,1);
     _lcd.print("Some Coffee!");
@@ -27,8 +30,6 @@ void GrinderClass::update(){
     _speed = map(_speedReading, 0, 1023, 0, 255);
     _readableSpeed = map(_speedReading, 0, 1023, 0, 300);
     _duration = map(_durationReading, 0, 1023, 1, 60);
-
-    _startButton.debug();
 
     if (_startButton.wasPressed()) {
         _motorRunning = !_motorRunning;

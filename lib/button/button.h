@@ -9,7 +9,6 @@ class ButtonClass {
         bool isPressed();
         bool wasPressed();
         void begin();
-        void debug();
     private:
         int _pin;
         int _lastState;

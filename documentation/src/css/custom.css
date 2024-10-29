@@ -1,0 +1,100 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* :root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+} */
+
+:root {
+  --ifm-color-primary: #4a90e2;
+  --ifm-color-primary-dark: #2f7fd9;
+  --ifm-color-primary-darker: #2877cd;
+  --ifm-color-primary-darkest: #2162a9;
+  --ifm-color-primary-light: #65a1e7;
+  --ifm-color-primary-lighter: #72a9e9;
+  --ifm-color-primary-lightest: #98c0ef;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ff7f50;
+  --ifm-color-primary-dark: #ff6831;
+  --ifm-color-primary-darker: #ff5c22;
+  --ifm-color-primary-darkest: #f44000;
+  --ifm-color-primary-light: #ff966f;
+  --ifm-color-primary-lighter: #ffa27e;
+  --ifm-color-primary-lightest: #ffbfad;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+/* :root {
+  --ifm-color-primary: #40e0d0;
+  --ifm-color-primary-dark: #2cd9c8;
+  --ifm-color-primary-darker: #25d1c0;
+  --ifm-color-primary-darkest: #1fad9e;
+  --ifm-color-primary-light: #58e5d7;
+  --ifm-color-primary-lighter: #65e7da;
+  --ifm-color-primary-lightest: #8ceee4;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #9370db;
+  --ifm-color-primary-dark: #8058d3;
+  --ifm-color-primary-darker: #764cd0;
+  --ifm-color-primary-darkest: #5f35b5;
+  --ifm-color-primary-light: #a688e3;
+  --ifm-color-primary-lighter: #b094e6;
+  --ifm-color-primary-lightest: #cbb6f0;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+} */
+
+
+/* :root {
+  --ifm-color-primary: #ffa07a;
+  --ifm-color-primary-dark: #ff8a5b;
+  --ifm-color-primary-darker: #ff7f4b;
+  --ifm-color-primary-darkest: #ff5d1a;
+  --ifm-color-primary-light: #ffb699;
+  --ifm-color-primary-lighter: #ffc1a9;
+  --ifm-color-primary-lightest: #ffe3d9;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #20b2aa;
+  --ifm-color-primary-dark: #1da099;
+  --ifm-color-primary-darker: #1b9790;
+  --ifm-color-primary-darkest: #167d77;
+  --ifm-color-primary-light: #23c4bb;
+  --ifm-color-primary-lighter: #25cdc4;
+  --ifm-color-primary-lightest: #3ad7ce;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+} */
