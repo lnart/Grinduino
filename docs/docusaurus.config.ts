@@ -16,7 +16,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lnart', // Usually your GitHub org/user name.
-  projectName: 'grinduino', // Usually your repo name.
+  projectName: 'Grinduino', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
