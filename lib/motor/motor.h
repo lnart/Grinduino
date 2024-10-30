@@ -3,6 +3,7 @@
 
 #include <Arduino.h>
 
+//Defines MotorClass functionality
 class MotorClass{
     public:
         MotorClass(int in1Pin, int in2Pin, int enaPin);

@@ -6,6 +6,8 @@
 #include <button.h>
 #include <motor.h>
 
+//Defines the GrinderClass functionality
+
 class GrinderClass {
     public:
         GrinderClass(int in1Pin, int in2Pin, int enaPin, int speedPin, int durationPin, int startPin);

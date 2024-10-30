@@ -1,3 +1,5 @@
+// This is the main file, here everything comes together and is being executed
+
 #include <grinder.h>
 
 

@@ -3,6 +3,7 @@
 
 #include <Arduino.h>
 
+//Defines the functionality for the Button that initializes the Grinding process
 class ButtonClass {
     public:
         ButtonClass(int pin);
