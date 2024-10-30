@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -24,6 +26,9 @@ jobs:
         run: yarn build
         working-directory: docs
 
+      - name: List build output
+        run: ls -R docs/build
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -32,3 +37,12 @@ jobs:
           publish_branch: gh-pages
           enable_jekyll: false
           cname: info.grinduino.com
+          force_orphan: true
+          
+      - name: Check gh-pages branch
+        if: success()
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages
+          ls -la
+          cat CNAME
