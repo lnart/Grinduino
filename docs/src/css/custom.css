@@ -29,7 +29,7 @@
 } */
 
 :root {
-  --ifm-color-primary: #4a90e2;
+  --ifm-color-primary: #6F4E37;
   --ifm-color-primary-dark: #2f7fd9;
   --ifm-color-primary-darker: #2877cd;
   --ifm-color-primary-darkest: #2162a9;
@@ -41,7 +41,7 @@
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #ff7f50;
+  --ifm-color-primary: #6F4E37;
   --ifm-color-primary-dark: #ff6831;
   --ifm-color-primary-darker: #ff5c22;
   --ifm-color-primary-darkest: #f44000;
