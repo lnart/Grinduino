@@ -27,6 +27,29 @@ function HomepageHeader() {
     </header>
   );
 }
+function HomepageFooter() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <Heading as="h1" className="hero__title">
+          Join The Communinity!
+        </Heading>
+        <p className="hero__subtitle">Ask questions, Discuss ideas and share your success!</p>
+        <div className={styles.buttons}>
+        <Link
+            className={clsx('button button--secondary button--lg', styles.button)}
+            to="https://discord.gg/8UvV2dJnPF"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Grinduino Discord Channel
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
@@ -38,6 +61,7 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageFeatures />
       </main>
+      <HomepageFooter/>
     </Layout>
   );
 }
