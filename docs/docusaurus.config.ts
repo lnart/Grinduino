@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/Coffee-Brew-Icon.svg',
 
   // Set the production url of your site here
-  url: 'https://lnart.github.io',
+  url: 'https://lnart.github.io.',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/Grinduino/',
@@ -17,7 +17,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lnart', // Usually your GitHub org/user name.
   projectName: 'Grinduino', // Usually your repo name.
-  trailingSlash: true,
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
