@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/Coffee-Brew-Icon.svg',
 
   // Set the production url of your site here
-  url: 'https://info.grinduino.com.',
+  url: 'https://info.grinduino.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
