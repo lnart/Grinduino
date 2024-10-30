@@ -6,6 +6,8 @@ on:
       - main
     paths: 
       - 'docs/**'
+      - '.github/workflows/deploy-documentation.yml'
+    workflow_dispatch: 
 
 jobs:
   deploy:
