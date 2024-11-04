@@ -23,8 +23,15 @@ the Platform IO extension.
 Open your Terminal and navigate to the place where the Repository should be created.
 And run the following command.
 
-
-`git clone https://github.com/lnart/Grinduino.git`
+1. Fork the repository on GitHub.
+2. Clone your fork locally:
+```bash
+git clone https://github.com/your-username/grinduino.git
+```
+3. Create a branch for your changes:
+```bash
+git checkout -b feature/your-feature-name
+```
 
 This will create a project folder called **Grinduino**, 
 in this folder you will find the source code and documentation files.
