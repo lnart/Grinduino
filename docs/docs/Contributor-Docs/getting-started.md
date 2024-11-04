@@ -43,6 +43,6 @@ To compile the code you can click on the "Build" button on the bottom
 and to upload the Code to the Microcontroller, you will need to connect it 
 to your computer and then click the "Upload" button.
 
-For more explanation and details about the source code check out the [Software-Architecture](/docs/Contributor-Docs/software-architecture) 
+For more explanation and details about the source code check out the [Software-Architecture](/docs/Contributor-Docs/Software/software-architecture) 
 
 
