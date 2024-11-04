@@ -21,7 +21,7 @@ git checkout -b feature/your-feature-name
 ```
 ## How to Contribute
 
-1. Check the [Issues](link-to-issues) page for open tasks or bugs.
+1. Check the Issues page for open tasks or bugs.
 2. If you have a new idea, open an issue to discuss it before starting work.
 3. Make your changes in your feature branch.
 4. Test your changes thoroughly.
